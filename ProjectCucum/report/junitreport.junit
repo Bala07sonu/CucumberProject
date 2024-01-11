@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="30.018918">
+    <testcase classname="To Validate the facebook web application with multiple datas" name="To validate the facebook login functionalities" time="12.921595">
+        <system-out><![CDATA[Given To Launch the browser.................................................passed
+When Launch the Facebook Url................................................passed
+And To Pass the email datas into email field................................passed
+And To pass the valid passwrds datas into pass field........................passed
+And Click the Login button..................................................passed
+And Take Screenshot current page............................................passed
+Then To Close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To Validate the facebook web application with multiple datas" name="User try to validate the facebook application with multible application" time="3.475852">
+        <system-out><![CDATA[Given User lauch the browser................................................passed
+When User lauch the facebook URL............................................passed
+And User pass the datas in the email "balasonu1998@gmail.com" field.........passed
+And User pass the datas in the password "9008675t" field....................passed
+And User click the login button.............................................passed
+Then User Close the browser.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To Validate the facebook web application with multiple datas" name="User try to validate the facebook application with multible application 2" time="5.661657">
+        <system-out><![CDATA[Given User lauch the browser................................................passed
+When User lauch the facebook URL............................................passed
+And User pass the datas in the email "bala.tgml279@gmail.com" field.........passed
+And User pass the datas in the password "uywero87oq" field..................passed
+And User click the login button.............................................passed
+Then User Close the browser.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To Validate the facebook web application with multiple datas" name="User try to validate the facebook application with multible application 3" time="3.294811">
+        <system-out><![CDATA[Given User lauch the browser................................................passed
+When User lauch the facebook URL............................................passed
+And User pass the datas in the email "747876848" field......................passed
+And User pass the datas in the password "nzxBCJj" field.....................passed
+And User click the login button.............................................passed
+Then User Close the browser.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To Validate the facebook web application with multiple datas" name="User try to validate the facebook application with multible application 4" time="4.665003">
+        <system-out><![CDATA[Given User lauch the browser................................................passed
+When User lauch the facebook URL............................................passed
+And User pass the datas in the email "7587476897" field.....................passed
+And User pass the datas in the password "cvxjkxhvkjx" field.................passed
+And User click the login button.............................................passed
+Then User Close the browser.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,514 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To validate the facebook login functionalities",
+        "description": "",
+        "id": "to-validate-the-facebook-web-application-with-multiple-datas;to-validate-the-facebook-login-functionalities",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2070326200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To Launch the browser",
+            "match": {
+              "location": "StepDefinitionFile.to_Launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1739305100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the Facebook Url",
+            "match": {
+              "location": "StepDefinitionFile.launch_the_Facebook_Url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120278800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Pass the email datas into email field",
+            "match": {
+              "location": "StepDefinitionFile.to_Pass_the_email_datas_into_email_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "balsonu1998@gmail.com",
+                  "bala.tgml279@gmail.com",
+                  "8072415945",
+                  "9994595536",
+                  "9990865473"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119118000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass the valid passwrds datas into pass field",
+            "match": {
+              "location": "StepDefinitionFile.to_pass_the_valid_passwrds_datas_into_pass_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "hsagsgfl",
+                  "JSDFh",
+                  "KJDFHjk",
+                  "kjsdFH\tIU",
+                  "JfjVBKJNDKJ"
+                ]
+              },
+              {
+                "cells": [
+                  "jf.KJKJJ",
+                  "NVJDJHJA;",
+                  "JSHFJAJ",
+                  "FHJDAHJ",
+                  "GFSDFSG"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85840500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click the Login button",
+            "match": {
+              "location": "StepDefinitionFile.click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8546049900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Take Screenshot current page",
+            "match": {
+              "location": "StepDefinitionFile.take_Screenshot_current_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237733700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To Close the Browser",
+            "match": {
+              "location": "StepDefinitionFile.to_Close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "User try to validate the facebook application with multible application",
+        "description": "",
+        "id": "to-validate-the-facebook-web-application-with-multiple-datas;user-try-to-validate-the-facebook-application-with-multible-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 885141000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User lauch the browser",
+            "match": {
+              "location": "otln.user_lauch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1970104100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User lauch the facebook URL",
+            "match": {
+              "location": "otln.user_lauch_the_facebook_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189797200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User pass the datas in the email \"balasonu1998@gmail.com\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"balasonu1998@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "otln.user_pass_the_datas_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126101900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User pass the datas in the password \"9008675t\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9008675t\"",
+                  "offset": 36
+                }
+              ],
+              "location": "otln.user_pass_the_datas_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101831400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click the login button",
+            "match": {
+              "location": "otln.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202276200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Close the browser",
+            "match": {
+              "location": "otln.user_Close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User try to validate the facebook application with multible application",
+        "description": "",
+        "id": "to-validate-the-facebook-web-application-with-multiple-datas;user-try-to-validate-the-facebook-application-with-multible-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 982911800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User lauch the browser",
+            "match": {
+              "location": "otln.user_lauch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3981981700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User lauch the facebook URL",
+            "match": {
+              "location": "otln.user_lauch_the_facebook_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197822100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User pass the datas in the email \"bala.tgml279@gmail.com\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bala.tgml279@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "otln.user_pass_the_datas_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135273000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User pass the datas in the password \"uywero87oq\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uywero87oq\"",
+                  "offset": 36
+                }
+              ],
+              "location": "otln.user_pass_the_datas_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98927200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click the login button",
+            "match": {
+              "location": "otln.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264043800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Close the browser",
+            "match": {
+              "location": "otln.user_Close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "User try to validate the facebook application with multible application",
+        "description": "",
+        "id": "to-validate-the-facebook-web-application-with-multiple-datas;user-try-to-validate-the-facebook-application-with-multible-application;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1085795100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User lauch the browser",
+            "match": {
+              "location": "otln.user_lauch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1510606400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User lauch the facebook URL",
+            "match": {
+              "location": "otln.user_lauch_the_facebook_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204505500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User pass the datas in the email \"747876848\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"747876848\"",
+                  "offset": 33
+                }
+              ],
+              "location": "otln.user_pass_the_datas_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172350400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User pass the datas in the password \"nzxBCJj\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nzxBCJj\"",
+                  "offset": 36
+                }
+              ],
+              "location": "otln.user_pass_the_datas_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95683800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click the login button",
+            "match": {
+              "location": "otln.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225174100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Close the browser",
+            "match": {
+              "location": "otln.user_Close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "User try to validate the facebook application with multible application",
+        "description": "",
+        "id": "to-validate-the-facebook-web-application-with-multiple-datas;user-try-to-validate-the-facebook-application-with-multible-application;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1373950600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User lauch the browser",
+            "match": {
+              "location": "otln.user_lauch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2342002200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User lauch the facebook URL",
+            "match": {
+              "location": "otln.user_lauch_the_facebook_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208596100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User pass the datas in the email \"7587476897\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7587476897\"",
+                  "offset": 33
+                }
+              ],
+              "location": "otln.user_pass_the_datas_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144341900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User pass the datas in the password \"cvxjkxhvkjx\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cvxjkxhvkjx\"",
+                  "offset": 36
+                }
+              ],
+              "location": "otln.user_pass_the_datas_in_the_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119694500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click the login button",
+            "match": {
+              "location": "otln.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 475759400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Close the browser",
+            "match": {
+              "location": "otln.user_Close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the facebook web application with multiple datas",
+    "description": "",
+    "id": "to-validate-the-facebook-web-application-with-multiple-datas",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Signin.feature",
+    "tags": []
+  }
+]
